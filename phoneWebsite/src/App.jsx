@@ -1,6 +1,8 @@
 import Navbar from "./Components/Navbar"
 export default function App() {
   return (
-    <Navbar/>
+    <div className="overflow-hidden">
+      <Navbar/>
+    </div>
   )
 }
