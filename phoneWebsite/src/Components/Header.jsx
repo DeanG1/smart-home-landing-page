@@ -2,7 +2,8 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <div className='w-full h-screen bg-primary'>
+    </div>
   )
 }
 
