@@ -2,7 +2,7 @@ import React from 'react'
 
 const Button = ({className, href, onClick, children,}) => {
 
-    const classesButton = "button px-9 font-semibold rounded-lg py-3 relative inline-flex items-center justify-center";
+    const classesButton = "button bg-white px-12 font-medium rounded-lg py-[1rem] relative inline-flex items-center justify-center";
     const classesHref = "button bg-indigo-500 text-white px-4 py-2 relative inline-flex items-center justify-center";
     const spanClasses = 'relative z-10'
     const renderButton = () => (
