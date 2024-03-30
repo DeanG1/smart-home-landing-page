@@ -3,7 +3,7 @@ export const Navigation = [
         id:"0",
         title:"Home",
         url:"#home",
-        className:"bg-white text-black text-white px-3 md:ml-0 w-full rounded-lg"
+        className:"bg-white lg:bg-transparent text-black lg:text-white px-3 lg:ml-0 w-full rounded-lg text-start md:text-center"
     },
     {
         id:"1",
