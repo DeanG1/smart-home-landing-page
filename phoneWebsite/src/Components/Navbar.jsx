@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full h-full lg:h-[6rem] flex justify-center items-start lg:items-center z-1 fixed bg-transparent">
+    <div className="w-full h-full lg:h-[6rem] flex justify-center items-start lg:items-center z-10 fixed bg-transparent">
       <nav className="w-full h-auto lg:px-[5rem] xl:px-[7rem] md:px-[4rem] flex justify-around items-center pt-4">
         <div className="nav-links w-[24rem] h-full flex justify-center items-center">
           <ul
