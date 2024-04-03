@@ -1,25 +1,29 @@
 import React from "react";
 import phones from "../assets/Images/phones.png";
 import Icons from "../Constants/Icons";
+import corner from "../assets/Images/corner.png";
 
 const Header = () => {
   return (
     <div className="w-full h-screen bg-primary">
       <div className="w-full h-auto flex justify-center items-center flex-col">
         <div className="header-title w-1/2 h-[20rem] flex justify-center items-center flex-col mt-28 ">
-          <h1 className="text-white text-7xl font-bold text-center">
+          <h1 className="text-white text-7xl font-bold  text-center">
             Smart Home <br /> Application
           </h1>
           <p className="text-white text-center mt-8 text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
-            eius? Nesciunt voluptatem quo repellendus veniam magni repellat vel
-            aliquid, laudantium sapiente.
+            eius? <br /> Nesciunt voluptatem quo repellendus veniam magni repellat vel
+            aliquid, laudantium .
           </p>
         </div>
         <div className="phone-container flex justify-center items-center w-full h-auto">
           <div className="absolute w-full h-full top-[23rem] left-0 flex justify-center items-center">
             <img src={phones} className="w-auto" alt="phones" />
           </div>
+        </div>
+        <div className="corner-container hidden lg:block absolute top-0 right-0">
+          <img src={corner} className="w-[12rem]" alt="corner here" />
         </div>
       </div>
       <div className="w-auto h-[14rem] leading-10 lg:flex flex-col justify-between items-center absolute left-20 bottom-20 hidden">

@@ -45,7 +45,7 @@ const Navbar = () => {
         <div className="logo h-auto w-full xl:mr-[7rem] pr-[5rem] md:pr-[7rem] lg:pr-0 flex justify-center items-center">
           <h2 className="text-white text-4xl font-bold mb-2">smartHome</h2>
         </div>
-        <div className="btn-container hidden lg:flex items-center justify-between">
+        <div className="btn-container hidden lg:flex items-center justify-between mr-12">
           <button className="text-white mr-10">Login</button>
           <Button>
             <span>Sign Up</span>
