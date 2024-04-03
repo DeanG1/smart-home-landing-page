@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        '3xl': '0 0px 20px 5px rgba(0, 0, 0, 0.17)',
+      },
       backgroundColor:{
         primary:"#1E5AFA",
       },
