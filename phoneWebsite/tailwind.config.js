@@ -12,6 +12,9 @@ export default {
       backgroundColor:{
         primary:"#1E5AFA",
       },
+      textColor:{
+        primary:"#575757",
+      },
       fontFamily:{
         'sora': ['Sora', 'sans-serif'],
         'code': ['Source Code Pro', 'monospace'],

@@ -28,13 +28,17 @@ const AboutUs = () => {
       </div>
       <div className="w-full h-auto flex justify-center flex-col items-center mt-[10rem]">
         <h1 className="text-8xl font-black">About Us</h1>
-        <div className="w-full h-auto flex justify-center items-center ">
-          <div className="w-3/5 h-auto ">
-            <img src={phone1} alt="phone image" />
+        <div className="w-full h-auto flex justify-center items-center gap-[5rem] mt-[12rem]">
+          <div className="square-bg-container relative w-[38rem] h-auto flex justify-center items-center mt-[12rem]">
+            <div className="w-full h-[22rem] bg-primary rounded-xl ">
+            </div>
+            <div className="absolute w-[60rem] h-[80rem] top-[-30rem] left-[-10rem]">
+              <img src={phone1} alt="phone1" />
+            </div>
           </div>
-          <div className="w-2/5 h-auto flex justify-center items-center">
-            <h3>Smart Home’s Smart Services</h3>
-            <p>
+          <div className="w-1/3  h-auto flex justify-center items-start flex-col mb-[13rem]">
+            <h3 className="font-semibold py-2 text-5xl">Smart Home’s Smart Services</h3>
+            <p className="text-xl tracking-wide leading-8 text-primary pt-6">
               Ye am depending propriety sweetness distrusts belonging collected.
               Smiling mention he in thought equally musical. Wisdom new and
               valley answer. Contented it so is discourse recommend. Man its
