@@ -1,4 +1,5 @@
 import AboutUs from "./Components/AboutUs"
+import Clients from "./Components/Clients"
 import Header from "./Components/Header"
 import Navbar from "./Components/Navbar"
 export default function App() {
@@ -7,6 +8,7 @@ export default function App() {
       <Navbar/>
       <Header/>
       <AboutUs/>
+      <Clients/>
     </div>
   )
 }
