@@ -9,6 +9,9 @@ export default {
       boxShadow: {
         '3xl': '0 0px 20px 5px rgba(0, 0, 0, 0.17)',
       },
+      borderColor:{
+        'primary': "#333333"
+      },
       backgroundColor:{
         primary:"#1E5AFA",
         secondary:"#333333",
