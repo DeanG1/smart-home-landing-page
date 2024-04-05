@@ -11,9 +11,15 @@ export default {
       },
       backgroundColor:{
         primary:"#1E5AFA",
+        secondary:"#333333",
+        btn_background:"#000F37"
       },
       textColor:{
         primary:"#575757",
+        secondary:"#313131"
+      },
+      fontSize:{
+        'xl7-1/2': '5.8rem'
       },
       fontFamily:{
         'sora': ['Sora', 'sans-serif'],
