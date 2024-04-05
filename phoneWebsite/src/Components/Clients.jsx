@@ -1,5 +1,5 @@
 import React from "react";
-
+import ClientsInfo from "../Constants/ClientsInfo";
 const Clients = () => {
   return (
     <div className="clients-container w-full h-auto">
@@ -12,7 +12,15 @@ const Clients = () => {
             ferrars besides cottage.
           </p>
         </div>
-        <div></div>
+        <div className="w-full h-auto flex justify-center items-center px-[4rem]">
+            <ul className="grid grid-rows-2 grid-cols-4 gap-x-12 ">
+                {ClientsInfo.map((client) => (
+                    <li key={client.id} className="flex justify-center items-center w-[17rem] h-auto border-2 border-primary rounded-lg">
+                        <img src={client.image} width={150} className="py-2" alt={client.alt}/>
+                    </li>
+                ))}
+            </ul>
+        </div>
       </div>
     </div>
   );
