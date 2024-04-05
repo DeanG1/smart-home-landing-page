@@ -7,7 +7,7 @@ import phone3 from "../assets/Images/phone3.png";
 
 const AboutUs = () => {
   return (
-    <div className="w-full h-auto py-[20rem]">
+    <div className="w-full h-auto pt-[20rem] pb-[13rem]">
       <div className="btn-container w-full h-auto flex justify-center items-center gap-16">
         <div className="apple-store w-[14rem] bg-black h-auto py-2 rounded-2xl border flex justify-center items-center shadow-4xl">
           <div className="icon-btn">

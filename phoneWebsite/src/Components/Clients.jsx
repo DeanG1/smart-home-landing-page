@@ -12,11 +12,11 @@ const Clients = () => {
             ferrars besides cottage.
           </p>
         </div>
-        <div className="w-full h-auto flex justify-center items-center px-[4rem]">
-            <ul className="grid grid-rows-2 grid-cols-4 gap-x-12 ">
+        <div className="w-full h-auto flex justify-center items-center p-[5rem]">
+            <ul className="grid grid-rows-2 grid-cols-4 gap-10">
                 {ClientsInfo.map((client) => (
                     <li key={client.id} className="flex justify-center items-center w-[17rem] h-auto border-2 border-primary rounded-lg">
-                        <img src={client.image} width={150} className="py-2" alt={client.alt}/>
+                        <img src={client.image} width={120} className="py-2" alt={client.alt}/>
                     </li>
                 ))}
             </ul>
