@@ -1,4 +1,5 @@
 import TestimonialCard from "../Constants/TestimonialCard";
+import deco_testimonial from "../assets/Images/deco-testimonial.png";
 
 const Testimonial = () => {
   return (
@@ -11,8 +12,8 @@ const Testimonial = () => {
           ferrars besides cottage.
         </p>
       </div>
-      <div className="cart-container flex justify-center items-center w-full h-[34rem]">
-        <div className="w-full h-full flex justify-center items-center">
+      <div className="cart-container flex justify-center items-center w-full h-[44rem]">
+        <div className="w-full h-full flex justify-center items-center flex-col">
           <ul className="w-4/5 h-full grid grid-rows-2 grid-cols-2 gap-10">
             {TestimonialCard.map((testimonial) => (
               <li
@@ -39,6 +40,13 @@ const Testimonial = () => {
               </li>
             ))}
           </ul>
+          <div className="deco-testimonial pt-14">
+            <img
+              src={deco_testimonial}
+              width={140}
+              alt="Decoration for testimonial section"
+            />
+          </div>
         </div>
       </div>
     </div>
