@@ -14,6 +14,7 @@ export default {
         primary: "#1E5AFA",
         secondary: "#333333",
         btn_background: "#000F37",
+        light_bg: "#F7F6F6 ",
       },
       textColor: {
         primary: "#575757",
