@@ -18,7 +18,7 @@ const Faqs = () => {
               <li
                 onClick={() => handleClick(index)}
                 className={`flex w-full justify-center items-center border rounded-xl gap-x-12 ${
-                  openIndex === index ? "h-[12rem]" : "h-[5rem] bg-light_bg"
+                  openIndex === index ? "h-[12rem]" : "h-[6rem] bg-light_bg"
                 }`}
                 key={faq.id}
               >
@@ -34,7 +34,9 @@ const Faqs = () => {
                 )}
 
                 <div className="flex justify-center flex-col items-start h-auto w-4/5">
-                  <p className="text-lg font-medium">{faq.question}</p>
+                  <p className="text-lg font-medium text-secondary">
+                    {faq.question}
+                  </p>
                   <p
                     className={`pt-3 ${
                       openIndex === index ? "block" : "hidden"
