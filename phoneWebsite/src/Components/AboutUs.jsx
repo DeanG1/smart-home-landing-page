@@ -1,44 +1,24 @@
 import React from "react";
-import google_play from "../assets/Images/google-play.png";
-import apple_store from "../assets/Images/apple_store.png";
 import phone1 from "../assets/Images/phone1.png";
 import phone2 from "../assets/Images/phone2.png";
 import phone3 from "../assets/Images/phone3.png";
+import ButtonReusable from "./ButtonReusable";
 
 const AboutUs = () => {
   return (
     <div className="w-full h-auto pt-[20rem] pb-[13rem]">
-      <div className="btn-container w-full h-auto flex justify-center items-center gap-16">
-        <div className="apple-store w-[14rem] bg-black h-auto py-2 rounded-2xl border flex justify-center items-center shadow-4xl">
-          <div className="icon-btn">
-            <img src={apple_store} width={60} alt="" />
-          </div>
-          <div className="text-btn text-white">
-            <p className="font-semibold">Download on the</p>
-            <p className="text-3xl font-semibold">App Store</p>
-          </div>
-        </div>
-        <div className="google-play w-[14rem] bg-black h-auto p-2 rounded-2xl border flex justify-center items-center shadow-4xl">
-          <div className="icon-btn">
-            <img src={google_play} width={40} alt="" />
-          </div>
-          <div className="text-btn text-white">
-            <p className="font-semibold">Get it on</p>
-            <p className="text-3xl font-semibold tracking-tight">Google Play</p>
-          </div>
-        </div>
-      </div>
+      <ButtonReusable />
       <div className="w-full h-auto flex justify-center flex-col items-center mt-[7rem]">
         <h1 className="text-xl7-1/2 font-bold text-secondary ">About us</h1>
         <div className="w-full h-auto flex justify-center items-center gap-[5rem] mt-[12rem]">
           <div className="square-bg-container relative w-[38rem] h-auto flex justify-center items-center mt-[12rem]">
             <div className="w-[34rem] h-[22rem] bg-primary rounded-xl "></div>
-            <div className="absolute w-[63rem] top-[-32rem] left-[-9rem]">
+            <div className="absolute w-[47rem] right-[6rem] mb-6">
               <img src={phone1} alt="phone1" />
             </div>
           </div>
           <div className="w-1/3  h-auto flex justify-center items-start flex-col mb-[4rem]">
-            <h3 className="font-bold py-2  text-5xl ">
+            <h3 className="font-bold py-2 text-5xl ">
               Smart Home’s Smart Services
             </h3>
             <p className="text-2xl tracking-wide leading-8 text-primary py-6 ">
