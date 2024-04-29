@@ -15,6 +15,7 @@ export default {
         secondary: "#333333",
         btn_background: "#000F37",
         light_bg: "#F7F6F6 ",
+        footer_bg: "#000F37",
       },
       textColor: {
         primary: "#575757",

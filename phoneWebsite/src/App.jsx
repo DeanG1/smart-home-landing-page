@@ -7,6 +7,7 @@ import Navbar from "./Components/Navbar";
 import Testimonial from "./Components/Testimonial";
 import Subscribe from "./Components/Subscribe";
 import Footer from "./Components/Footer";
+import Copyright from "./Components/Copyright";
 export default function App() {
   return (
     <div className="overflow-hidden">
@@ -19,6 +20,7 @@ export default function App() {
       <Download />
       <Subscribe />
       <Footer />
+      <Copyright />
     </div>
   );
 }
