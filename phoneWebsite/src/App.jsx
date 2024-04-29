@@ -6,6 +6,7 @@ import Header from "./Components/Header";
 import Navbar from "./Components/Navbar";
 import Testimonial from "./Components/Testimonial";
 import Subscribe from "./Components/Subscribe";
+import Footer from "./Components/Footer";
 export default function App() {
   return (
     <div className="overflow-hidden">
@@ -17,6 +18,7 @@ export default function App() {
       <Faqs />
       <Download />
       <Subscribe />
+      <Footer />
     </div>
   );
 }
