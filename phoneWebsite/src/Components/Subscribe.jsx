@@ -1,7 +1,7 @@
 const Subscribe = () => {
   return (
     <div className="subscribe-container w-full h-auto mt-[16rem] px-[10rem]">
-      <div className="w-full h-[18rem] px-[4rem] flex justify-center items-center gap-[5rem] bg-primary rounded-xl">
+      <div className="w-full h-[17rem] px-[4rem] flex justify-center items-center gap-[5rem] bg-primary rounded-xl">
         <div className="w-2/3 h-full flex justify-center items-start flex-col text-white pl-10 mt-8">
           <h2 className="font-bold text-5xl">Subscribe to get updated</h2>
           <p className="py-8 text-xl">
